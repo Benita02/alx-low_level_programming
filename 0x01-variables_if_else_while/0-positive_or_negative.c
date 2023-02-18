@@ -5,6 +5,7 @@
  * main -prints if random number is positive or negative or just zero
  * Return - Always 0
  */
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
