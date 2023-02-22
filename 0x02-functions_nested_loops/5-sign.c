@@ -10,11 +10,11 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		return (1);
-		_putchar(43);
+		_putchar('+');
 	} else if (n < 0)
 	{
 		return (-1);
-		_putchar(45);
+		_putchar('-');
 	} else
 	{
 		return (0);
