@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * prints all single digit number of base 10
+ * prints all single digit number of base 16
  * starting from 0, followed by a new line.
  * Return: alwaus 0 (success)
  */
@@ -18,6 +18,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	putchar(ch);
+	putchar('\n');
 	return (0);
 }
